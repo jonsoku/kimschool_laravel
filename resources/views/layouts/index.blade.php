@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/ex2.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/1.css') }}" />
     <script src="{{ asset('js/subjects.js') }}" defer></script>
     <script src="{{ asset('js/mainSlide.js') }}" defer></script>
 </head>
@@ -49,7 +50,8 @@
         <nav class="main-nav">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="{{route('abouts.index')}}">About</a></li>
+                <li><a href="/subjects/java">Subject</a></li>
                 <li><a href="/notices">Notice</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -61,7 +63,7 @@
         @yield('wrapper')
         <!--footer-->
         <footer>
-            <p>Jonsoku &copy; 2019</p>
+            <p>KIMSCHOOL &copy; 2019</p>
         </footer>
 
     </div>

@@ -5,7 +5,7 @@
             <li>
                 <section class="top-container">
                     <div class="showcase">
-                        <h1>Your Web Presence</h1>
+                        <h1>타카다노바바 사무실 이전</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae dolor libero maxime minima quae quaerat, quam ratione sit vitae.</p>
                         <a href="" class="btn">Read More</a>
                     </div>
@@ -14,7 +14,7 @@
             <li>
                 <section class="top-container">
                     <div class="showcase">
-                        <h1>Your Web Presence</h1>
+                        <h1>자바 취업반 85% 취업!</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae dolor libero maxime minima quae quaerat, quam ratione sit vitae.</p>
                         <a href="" class="btn">Read More</a>
                     </div>
@@ -23,7 +23,7 @@
             <li>
                 <section class="top-container">
                     <div class="showcase">
-                        <h1>Your Web Presence</h1>
+                        <h1>HTML/CSS 블로그반 개설</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae dolor libero maxime minima quae quaerat, quam ratione sit vitae.</p>
                         <a href="" class="btn">Read More</a>
                     </div>
@@ -46,19 +46,19 @@
 
 
     <section class="boxes">
-        <div class="box" onclick="location.href='/subjects/java'">
-            <i class="fas fa-book-open fa-3x"></i>
-            <h3>과목소개</h3>
-        </div>
         <div class="box" onclick="location.href='/applies'">
             <i class="fas fa-cat fa-3x" style="color:#00395d;"></i>
             <h3>수강신청</h3>
         </div>
         <div class="box" onclick="location.href='/subjects/java'">
+            <i class="fas fa-cat fa-3x"></i>
+            <h3>수강후기</h3>
+        </div>
+        <div class="box" onclick="location.href='/subjects/java'">
             <i class="far fa-question-circle fa-3x"></i>
             <h3>질문답변</h3>
         </div>
-        <div class="box" onclick="location.href='/subjects/java'">
+        <div class="box" onclick="window.open('http://youtube.com', '강의영상', 'width=1000, height=1000, toolbar=no, menubar=no, scrollbars=no, resizable=yes' );">
             <i class="fab fa-youtube fa-3x" style="color:red;"></i>
             <h3>강의영상</h3>
         </div>

@@ -88,7 +88,7 @@
 
     <!--footer-->
     <footer>
-        <p>Jonsoku &copy; 2019</p>
+        <p> &copy; 2019</p>
     </footer>
 </body>
 </html>
